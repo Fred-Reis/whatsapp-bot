@@ -8,7 +8,10 @@ from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from langchain_openai import OpenAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-from config import RAG_FILES_DIR, VECTOR_STORE_PATH
+from config import (
+    RAG_FILES_DIR,
+    VECTOR_STORE_PATH,
+)
 
 
 def load_documents():
